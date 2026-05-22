@@ -8,7 +8,7 @@ export default function NotFound() {
       {/* Film Icon with question mark look */}
       <div className="relative rounded-3xl border border-primary/20 bg-primary/10 p-4 text-primary">
         <HugeiconsIcon icon={Film01Icon} size={40} className="text-primary" />
-        <span className="absolute -right-1.5 p-3 -bottom-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-background bg-primary text-[10px] font-extrabold text-primary-foreground">
+        <span className="absolute -right-1.5 -bottom-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-background bg-primary p-3 text-[10px] font-extrabold text-primary-foreground">
           404
         </span>
       </div>
