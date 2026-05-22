@@ -1,0 +1,93 @@
+[     289ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[     396ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   79027ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   79031ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   79231ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   79713ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   79728ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   80197ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   80357ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   80535ms] [LOG] [Fast Refresh] done in 282ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   80646ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[   80654ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  110815ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  110854ms] [LOG] [Fast Refresh] done in 77ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  124184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  124216ms] [LOG] [Fast Refresh] done in 64ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  137787ms] [ERROR] ./components/ui/carousel.tsx:97:14
+Parsing ecmascript source code failed
+   95 |
+   96 |     <CarouselContext.Provider
+>  97 |       value={{
+      |              ^
+   98 |         carouselRef,
+   99 |         api: api,
+  100 |         opts,
+
+Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  137817ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  150198ms] [ERROR] ./components/ui/carousel.tsx:94:12
+Parsing ecmascript source code failed
+  92 |
+  93 |         carouselRef,
+> 94 |         api: api,
+     |            ^
+  95 |         opts,
+  96 |         orientation:
+  97 |           orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  150205ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  163109ms] [ERROR] ./components/ui/carousel.tsx:91:9
+Parsing ecmascript source code failed
+  89 |     [scrollPrev, scrollNext]
+  90 |
+> 91 |         api: api,
+     |         ^^^
+  92 |         opts,
+  93 |         orientation:
+  94 |           orientation || (opts?.axis === "y" ? "vertical" : "horizontal"),
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./components/ui/carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Client Component Browser]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/ui/carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Client Component SSR]
+    ./components/movies/hero-carousel.tsx [Server Component]
+    ./app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  163125ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  178009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297
+[  178222ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:2297

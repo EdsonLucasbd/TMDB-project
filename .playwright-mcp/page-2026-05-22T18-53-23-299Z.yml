@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "CineCatalog" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e10]: CineCatalog
+      - navigation [ref=e11]:
+        - link "Início" [ref=e12] [cursor=pointer]:
+          - /url: /
+        - link "Ação" [ref=e13] [cursor=pointer]:
+          - /url: /?genre=28
+        - link "Comédia" [ref=e14] [cursor=pointer]:
+          - /url: /?genre=35
+      - generic [ref=e19]: Online
+  - main [ref=e21]
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - paragraph [ref=e118]: CineCatalog © 2026
+        - paragraph [ref=e119]: Desenvolvido como um catálogo imersivo de filmes e séries de alto desempenho.
+      - paragraph [ref=e121]:
+        - text: Este site consome os dados e serviços da API do
+        - link "The Movie Database (TMDB)" [ref=e122] [cursor=pointer]:
+          - /url: https://www.themoviedb.org
+        - text: . Este produto utiliza a API do TMDB, mas não é endossado ou certificado pelo TMDB.
+  - button "Open Next.js Dev Tools" [ref=e128] [cursor=pointer]:
+    - img [ref=e129]
+  - alert [ref=e132]
